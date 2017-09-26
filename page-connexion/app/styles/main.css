@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html.page-connexion {
+  height: 100%; }
+
+body.page-connexion {
+  width: 100%;
+  height: 100%;
+  background: url("../img/plateforme-connexion.jpg") center center no-repeat;
+  background-size: cover;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  body.page-connexion:after, body.page-connexion:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  body.page-connexion a, body.page-connexion a:hover {
+    color: #000; }
+  body.page-connexion #connexion-box {
+    width: 50%;
+    margin: 0 auto;
+    min-width: 320px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 3em;
+    vertical-align: middle; }
+  body.page-connexion .info-box {
+    text-align: center;
+    font-size: 12px; }
+  body.page-connexion input,
+  body.page-connexion select,
+  body.page-connexion textarea,
+  body.page-connexion * {
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  body.page-connexion input::after,
+  body.page-connexion input::before,
+  body.page-connexion select::after,
+  body.page-connexion select::before,
+  body.page-connexion textarea::after,
+  body.page-connexion textarea::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  body.page-connexion h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 2em;
+    font-weight: 300; }
+  body.page-connexion .container {
+    position: relative;
+    max-width: 40rem;
+    margin: 5rem auto;
+    background: #fff;
+    width: 100%;
+    padding: 3rem 5rem 0;
+    border-radius: 1px; }
+    body.page-connexion .container:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+      -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+      transform: scale(0.98);
+      -webkit-transition: -webkit-transform 0.28s ease-in-out;
+      transition: -webkit-transform 0.28s ease-in-out;
+      transition: transform 0.28s ease-in-out;
+      transition: transform 0.28s ease-in-out, -webkit-transform 0.28s ease-in-out;
+      z-index: -1; }
+  body.page-connexion .container:hover::before {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  body.page-connexion .button-container {
+    text-align: center; }
+  body.page-connexion fieldset {
+    margin: 0 0 3rem;
+    padding: 0;
+    border: none; }
+  body.page-connexion .form-radio,
+  body.page-connexion .form-group {
+    position: relative;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem; }
+  body.page-connexion .form-inline > .form-group,
+  body.page-connexion .form-inline > .btn {
+    display: inline-block;
+    margin-bottom: 0; }
+  body.page-connexion .form-group input {
+    height: 1.9rem; }
+  body.page-connexion .form-group textarea {
+    resize: none; }
+  body.page-connexion .form-group .control-label {
+    position: absolute;
+    top: 0.25rem;
+    pointer-events: none;
+    padding-left: 0.125rem;
+    z-index: 1;
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-weight: normal;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease; }
+  body.page-connexion .form-group .bar {
+    position: relative;
+    border-bottom: 0.0625rem solid #999;
+    display: block; }
+  body.page-connexion .form-group .bar::before {
+    content: '';
+    height: 0.125rem;
+    width: 0;
+    left: 50%;
+    bottom: -0.0625rem;
+    position: absolute;
+    background: #337ab7;
+    -webkit-transition: left 0.28s ease, width 0.28s ease;
+    transition: left 0.28s ease, width 0.28s ease;
+    z-index: 2; }
+  body.page-connexion .form-group input,
+  body.page-connexion .form-group textarea {
+    display: block;
+    background: none;
+    padding: 0.125rem 0.125rem 0.0625rem;
+    font-size: 1rem;
+    border-width: 0;
+    border-color: transparent;
+    line-height: 1.9;
+    width: 100%;
+    color: transparent;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  body.page-connexion .form-group input[type="file"] {
+    line-height: 1; }
+  body.page-connexion .form-group input[type="file"] ~ .bar {
+    display: none; }
+  body.page-connexion .form-group select,
+  body.page-connexion .form-group input:focus,
+  body.page-connexion .form-group input:valid,
+  body.page-connexion .form-group input.form-file,
+  body.page-connexion .form-group input.has-value,
+  body.page-connexion .form-group textarea:focus,
+  body.page-connexion .form-group textarea:valid,
+  body.page-connexion .form-group textarea.form-file,
+  body.page-connexion .form-group textarea.has-value {
+    color: #333; }
+  body.page-connexion .form-group select ~ .control-label,
+  body.page-connexion .form-group input:focus ~ .control-label,
+  body.page-connexion .form-group input:valid ~ .control-label,
+  body.page-connexion .form-group input.form-file ~ .control-label,
+  body.page-connexion .form-group input.has-value ~ .control-label,
+  body.page-connexion .form-group textarea:focus ~ .control-label,
+  body.page-connexion .form-group textarea:valid ~ .control-label,
+  body.page-connexion .form-group textarea.form-file ~ .control-label,
+  body.page-connexion .form-group textarea.has-value ~ .control-label {
+    font-size: 0.8rem;
+    color: gray;
+    top: -1rem;
+    left: 0; }
+  body.page-connexion .form-group select:focus,
+  body.page-connexion .form-group input:focus,
+  body.page-connexion .form-group textarea:focus {
+    outline: none; }
+  body.page-connexion .form-group select:focus ~ .control-label,
+  body.page-connexion .form-group input:focus ~ .control-label,
+  body.page-connexion .form-group textarea:focus ~ .control-label {
+    color: #337ab7; }
+  body.page-connexion .form-group select:focus ~ .bar::before,
+  body.page-connexion .form-group input:focus ~ .bar::before,
+  body.page-connexion .form-group textarea:focus ~ .bar::before {
+    width: 100%;
+    left: 0; }
+  body.page-connexion .has-error .legend.legend, body.page-connexion .has-error.form-group .control-label.control-label {
+    color: #d9534f; }
+  body.page-connexion .has-error.form-group .form-help,
+  body.page-connexion .has-error.form-group .helper, body.page-connexion .has-error.checkbox .form-help,
+  body.page-connexion .has-error.checkbox .helper, body.page-connexion .has-error.radio .form-help,
+  body.page-connexion .has-error.radio .helper, body.page-connexion .has-error.form-radio .form-help,
+  body.page-connexion .has-error.form-radio .helper {
+    color: #d9534f; }
+  body.page-connexion .has-error .bar::before {
+    background: #d9534f;
+    left: 0;
+    width: 100%; }
+  body.page-connexion .button {
+    position: relative;
+    background: #000;
+    border: 1px solid #000;
+    font-size: 1.1rem;
+    color: #4f93ce;
+    margin: 3rem 0;
+    padding: 0.75rem 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.28s ease, color 0.28s ease, -webkit-box-shadow 0.28s ease;
+    transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    overflow: hidden;
+    /*  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); */ }
+  body.page-connexion .button span {
+    color: #fff;
+    position: relative;
+    z-index: 1; }
+  body.page-connexion .button::before {
+    content: '';
+    position: absolute;
+    background: #071017;
+    border: 50vh solid #1d4567;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    display: block;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    -ms-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0); }
+  body.page-connexion .button:hover {
+    color: #337ab7;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2); }
+  body.page-connexion .button:active::before, body.page-connexion .button:focus::before {
+    -webkit-transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+    transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+    transition: transform 1.12s ease, opacity 0.28s ease 0.364s;
+    transition: transform 1.12s ease, opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0; }
+  body.page-connexion .button:focus {
+    outline: none; }
